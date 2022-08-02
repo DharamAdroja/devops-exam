@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deployment-devops-exam
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: devops-exam
+  template:
+    metadata:
+      labels:
+          app: devops-exam
+    spec:
+      containers:
+      - name: dharam0092-devops
+        image: "dharamwithdocker/devops-exam:latest"
+
