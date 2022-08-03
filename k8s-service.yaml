@@ -7,8 +7,8 @@ spec:
   selector:
     app: devops-exam
   ports:
-    - port: 8080
-      nodePort: 30909
+    - port: 80
+      #nodePort: 30909
       protocol: TCP
       targetPort: 80
 
