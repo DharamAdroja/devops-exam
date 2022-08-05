@@ -15,4 +15,3 @@ spec:
       containers:
       - name: dharam0092-devops
         image: "dharamwithdocker/devops-exam:latest"
-
