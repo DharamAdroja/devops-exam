@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: deployment-q6
+  name: deploy-q6
 spec:
   replicas: 5
   selector:

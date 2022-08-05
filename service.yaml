@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: service-q6
+  name: svc-q6
 spec:
   type: NodePort
   selector:
