@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: deploy-q6
 spec:
-  replicas: 7
+  replicas: 10
   selector:
     matchLabels:
       app: devops-exam
